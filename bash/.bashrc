@@ -127,14 +127,6 @@ function to() {
     cd $path
 }
 
-#lazy git aliases
-alias gi="git init"
-alias gs="git status"
-alias ga="git add ."
-alias gc="git commit -m \"Lazy update description.\""
-alias gp="git push -u origin master"
-alias doev="git init && git status && git add . && git commit -m \"Do Everything\" && git push -u origin master"
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -182,7 +174,7 @@ fi
 
 find-phone() {
     curl -X POST https://textbelt.com/text \
-    --data-urlencode phone='7177797366' \
+    --data-urlencode phone='**REMOVED**' \
     --data-urlencode message='Find Your Phone!' \
     -d key=textbelt
 }
