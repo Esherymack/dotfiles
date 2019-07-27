@@ -158,7 +158,7 @@ fi
 
 find-phone() {
     curl -X POST https://textbelt.com/text \
-    --data-urlencode phone='7177797366' \
+    --data-urlencode phone='**REMOVED**' \
     --data-urlencode message='Find Your Phone!' \
     -d key=textbelt
 }
